@@ -18,10 +18,10 @@
 * [X] 불용어 제거
 * [X] Lemmatization
 * [X] 공백 수정 및 토큰 연결
-* [X] Stemming 
-* [X] Padding
-* [X] Embedding
-* [ ] 빈도 수 3이하 단어 삭제 - 보류
+* [X] Stemming
+* [X] 길이 100이상 리뷰 행 제거
+* [ ] Padding
+* [ ] Embedding
 
 **'condition'**
 * [X] html 코드 텍스트 제거 
@@ -31,8 +31,8 @@
 * [X] 토큰화
 * [X] 공백수정
 * [X] Stemming 
-* [X] Padding
-* [X] Embedding
+* [ ] Padding
+* [ ] Embedding
 
 **'drugName'**
 * [X] Label Encoding
@@ -45,3 +45,9 @@
 
 **'fixed_condition', 'fixed_review'**
 * [X] 'fixed_condition', 'fixed_review'이 모두 빈 리스트인 행 제거
+* [X] 결합
+* [X] 등장 빈도 3회 미만 단어 제거
+
+### Drug_Data_Modeling.ipynb
+**LSTM**
+**TPOT**
