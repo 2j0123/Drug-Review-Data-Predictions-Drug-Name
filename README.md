@@ -40,6 +40,9 @@
 **'rating'**
 * [X] 파생변수 'sentiment' 생성
 
+**'useCount'**
+* [X] 파생변수 'uC_rank' 생성
+
 **'date'**
 * [X] datetime 형식으로 수정한 'fixed date' 생성
 
@@ -49,5 +52,4 @@
 * [X] 등장 빈도 3회 미만 단어 제거
 
 ### Drug_Data_Modeling.ipynb
-**LSTM**
 **TPOT**
